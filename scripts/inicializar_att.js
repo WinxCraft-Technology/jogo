@@ -38,7 +38,7 @@ const timesNBA = [
   "Utah Jazz",
   "Washington Wizards"
 ];
-const versao = "1"
+const versao = "0.1"
 const elencoAtlantaHawks = atlantahawks();
 
 
