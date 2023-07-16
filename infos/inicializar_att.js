@@ -66,14 +66,3 @@ if (versao == R_versao) {
 } else {
   localStorage.setItem('savePadrao', savePadraoJSON);
 }
-
-
-// Atribui os nomes dos times na lista
-const selectElement = document.getElementById("teste");
-
-for (let i = 0; i < timesNBA.length; i++) {
-  const optionElement = document.createElement("option");
-  optionElement.value = timesNBA[i];
-  optionElement.text = timesNBA[i];
-  selectElement.appendChild(optionElement);
-}

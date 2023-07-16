@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novo Jogo</title>
+</head>
+<body>
+    <form>
+        <label for="nome-save">Nome do Save:</label>
+        <input type="text" id="nome-save" name="nome-save" required>
+        
+        <label for="nome-treinador">Nome do Treinador:</label>
+        <input type="text" id="nome-treinador" name="nome-treinador" required>
+        
+        <label for="select-time">Escolha um Time:</label>
+        <select id="select-time" name="select-time" required>
+          <option value="">Selecione</option>
+          <option value="AtlantaHawks">Atlanta Hawks</option>
+          <option value="BostonCeltics">Boston Celtics</option>
+          <!-- Adicione mais opções de times conforme necessário -->
+        </select>
+        
+        <button type="button" id="criarJogo">Enviar</button>
+      </form>
+
+      <script src="../infos/pg_novojogo.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.botao {
+    background-color: #4CAF50; /* Cor de fundo */
+    border: none; /* Remove a borda */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remove a decoração de texto */
+    display: inline-block; /* Exibe como elemento em linha */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Altera o cursor ao passar o mouse */
+    border-radius: 4px; /* Arredonda as bordas */
+  }
+  
+  /* Estilização ao passar o mouse */
+  .botao:hover {
+    background-color: #45a049;
+  }
+  
+  /* Estilização ao clicar no botão */
+  .botao:active {
+    background-color: #3e8e41;
+  }
