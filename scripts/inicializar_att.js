@@ -66,3 +66,28 @@ if (versao == R_versao) {
 } else {
   localStorage.setItem('savePadrao', savePadraoJSON);
 }
+
+
+// Desabilita os saves que podem estar ativos
+// Percorrer os itens de localStorage
+for (let i = 0; i < localStorage.length; i++) {
+  const key = localStorage.key(i);
+
+  // Verificar se o nome do item é diferente de "savePadrao"
+  if (key !== "savePadrao") {
+    // Obter o valor do item do localStorage
+    const itemValue = localStorage.getItem(key);
+
+    // Converter o valor de volta para um objeto
+    const itemObj = JSON.parse(itemValue);
+
+    // Atualizar o valor do atributo "active" para 0
+    itemObj[key].active = 0;
+
+    // Converter o objeto de volta para uma string JSON
+    const updatedValue = JSON.stringify(itemObj);
+
+    // Armazenar o valor atualizado de volta no localStorage
+    localStorage.setItem(key, updatedValue);
+  }
+}

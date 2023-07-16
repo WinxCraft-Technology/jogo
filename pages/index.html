@@ -21,9 +21,12 @@
     <br>
     <!--Seção que vai aparecer os botões pra entrar nos saves-->
     <div id="localStorageButtons"></div>
+    <!--
+        Talvez, se colocar um atributo "ativo: true || false" nos saves vai dar pra saber qual é o que ta sendo jogado e puxar apenas os dados dele
+    -->
 
-    <script src="../infos/jogadores.js"></script>
-    <script src="../infos/inicializar_att.js"></script>
+    <script src="../scripts/jogadores.js"></script>
+    <script src="../scripts/inicializar_att.js"></script>
     <script>
         // Obter todos os itens de localStorage
         const localStorageKeys = Object.keys(localStorage);

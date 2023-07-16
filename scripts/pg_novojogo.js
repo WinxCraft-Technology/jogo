@@ -3,11 +3,13 @@ document.getElementById("criarJogo").addEventListener("click", function () {
     const nome_treinador = document.getElementById("nome-treinador").value;
     const time_selecionado = document.getElementById("select-time");
     const time_selecionado_valor = time_selecionado.value;
+    const active = 1;
 
     const obj = {};
     obj[nome_save] = {
         nome_treinador,
-        time_selecionado_valor
+        time_selecionado_valor,
+        active
     };
 
     const savePadraoJSON = JSON.stringify(obj);
