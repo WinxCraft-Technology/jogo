@@ -27,25 +27,6 @@
 
     <script src="../scripts/jogadores.js"></script>
     <script src="../scripts/inicializar_att.js"></script>
-    <script>
-        // Obter todos os itens de localStorage
-        const localStorageKeys = Object.keys(localStorage);
-
-        // Filtrar os itens que não são "savePadrao"
-        const otherLocalStorageKeys = localStorageKeys.filter(key => key !== "savePadrao");
-
-        // Criar botões para cada item de localStorage
-        const localStorageButtonsContainer = document.getElementById("localStorageButtons");
-        otherLocalStorageKeys.forEach(key => {
-            const button = document.createElement("button");
-            button.textContent = "Jogar " + key;
-            button.addEventListener("click", () => {
-                // Lógica para jogar com o item selecionado
-                console.log("Jogar com " + key);
-            });
-            localStorageButtonsContainer.appendChild(button);
-        });
-    </script>
 </body>
 
 </html>

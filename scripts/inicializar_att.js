@@ -91,3 +91,36 @@ for (let i = 0; i < localStorage.length; i++) {
     localStorage.setItem(key, updatedValue);
   }
 }
+
+
+// Cria os botões para jogar os saves
+// Obter todos os itens de localStorage
+const localStorageKeys = Object.keys(localStorage);
+
+// Filtrar os itens que não são "savePadrao"
+const otherLocalStorageKeys = localStorageKeys.filter(key => key !== "savePadrao");
+
+// Criar botões para cada item de localStorage
+const localStorageButtonsContainer = document.getElementById("localStorageButtons");
+otherLocalStorageKeys.forEach(key => {
+    const button = document.createElement("a");
+    button.textContent = "Jogar " + key;
+    button.className = "botao";
+    button.href = "../pages/ingame.html"
+    button.addEventListener("click", () => {
+        const itemValue = localStorage.getItem(key);
+
+        // Converter o valor de volta para um objeto
+        const itemObj = JSON.parse(itemValue);
+
+        // Atualizar o valor do atributo "active" para 1
+        itemObj[key].active = 1;
+
+        // Converter o objeto de volta para uma string JSON
+        const updatedValue = JSON.stringify(itemObj);
+
+        // Armazenar o valor atualizado de volta no localStorage
+        localStorage.setItem(key, updatedValue);
+    });
+    localStorageButtonsContainer.appendChild(button);
+});
