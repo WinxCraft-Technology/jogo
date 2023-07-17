@@ -165,3 +165,121 @@ function atlantahawks() {
 
     return jogadoresAtlantaHawks;
 }
+
+function bostonceltics() {
+    const jogadoresBostonCeltics = [{
+            nome: "Jaylen Brown",
+            idade: 24,
+            posicao: "Ala",
+            nacionalidade: "Estados Unidos",
+            overall: 87
+        },
+        {
+            nome: "Jayson Tatum",
+            idade: 23,
+            posicao: "Ala",
+            nacionalidade: "Estados Unidos",
+            overall: 89
+        },
+        {
+            nome: "Kemba Walker",
+            idade: 31,
+            posicao: "Armador",
+            nacionalidade: "Estados Unidos",
+            overall: 86
+        },
+        {
+            nome: "Marcus Smart",
+            idade: 27,
+            posicao: "Armador",
+            nacionalidade: "Estados Unidos",
+            overall: 82
+        },
+        {
+            nome: "Al Horford",
+            idade: 35,
+            posicao: "Pivô",
+            nacionalidade: "República Dominicana",
+            overall: 80
+        },
+        {
+            nome: "Robert Williams",
+            idade: 24,
+            posicao: "Pivô",
+            nacionalidade: "Estados Unidos",
+            overall: 79
+        },
+        {
+            nome: "Josh Richardson",
+            idade: 27,
+            posicao: "Ala",
+            nacionalidade: "Estados Unidos",
+            overall: 78
+        },
+        {
+            nome: "Dennis Schroder",
+            idade: 28,
+            posicao: "Armador",
+            nacionalidade: "Alemanha",
+            overall: 81
+        },
+        {
+            nome: "Romeo Langford",
+            idade: 21,
+            posicao: "Ala",
+            nacionalidade: "Estados Unidos",
+            overall: 74
+        },
+        {
+            nome: "Grant Williams",
+            idade: 22,
+            posicao: "Ala-Pivô",
+            nacionalidade: "Estados Unidos",
+            overall: 74
+        },
+        {
+            nome: "Aaron Nesmith",
+            idade: 21,
+            posicao: "Ala",
+            nacionalidade: "Estados Unidos",
+            overall: 73
+        },
+        {
+            nome: "Payton Pritchard",
+            idade: 23,
+            posicao: "Armador",
+            nacionalidade: "Estados Unidos",
+            overall: 72
+        },
+        {
+            nome: "Enes Kanter",
+            idade: 29,
+            posicao: "Pivô",
+            nacionalidade: "Turquia",
+            overall: 78
+        },
+        {
+            nome: "Bruno Fernando",
+            idade: 23,
+            posicao: "Pivô",
+            nacionalidade: "Angola",
+            overall: 72
+        },
+        {
+            nome: "Tacko Fall",
+            idade: 25,
+            posicao: "Pivô",
+            nacionalidade: "Senegal",
+            overall: 71
+        },
+        {
+            nome: "Sam Hauser",
+            idade: 24,
+            posicao: "Ala",
+            nacionalidade: "Estados Unidos",
+            overall: 70
+        }
+    ];
+
+    return jogadoresBostonCeltics;
+}

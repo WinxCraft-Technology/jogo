@@ -8,7 +8,7 @@
     <title>Inicio</title>
 
     <link rel="stylesheet" href="../style/global.css">
-    <link rel="stylesheet" href="../style/botoes.css">
+    <link rel="stylesheet" href="../style/pg_index.css">
 </head>
 
 <body>
@@ -16,9 +16,19 @@
         <a class="tablinks" href="#">Início</a>
         <a class="tablinks" href="elencos.html">Elencos</a>
     </div>
-
-    <a class="botao" href="novojogo.html">Novo Jogo</a>
-    <br>
+    <br/>
+    <a class="botao" href="novojogo.html" style="width:60%;margin-left:15%;">Novo Jogo</a>
+    <br/>
+    <br/>
+    <table id="tabelaElenco">
+        <tr>
+            <th></th>
+            <th>Nome do Save</th>
+            <th>Time Treinado</th>
+            <th>Nome do Treinador</th>
+        </tr>
+        <!-- Aqui serão inseridas as linhas da tabela com os dados do elenco -->
+    </table>
     <!--Seção que vai aparecer os botões pra entrar nos saves-->
     <div id="localStorageButtons"></div>
     <!--
@@ -28,5 +38,4 @@
     <script src="../scripts/jogadores.js"></script>
     <script src="../scripts/inicializar_att.js"></script>
 </body>
-
 </html>
