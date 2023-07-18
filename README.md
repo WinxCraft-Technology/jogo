@@ -2,5 +2,8 @@
 Criando um jogo de basquete estilo brasfoot e basketballgm
 
 Coisas pra fazer
-( ) Fazer tela inicial ao continuar save;
-( ) Fazer sistema de salário de jogador;
+(X) Dividir equipes em conferências
+
+Tela ingame
+( ) Mostrar classificação com os times da conferência
+( ) Mostrar próximos jogos

@@ -13,6 +13,7 @@ document.getElementById("criarJogo").addEventListener("click", function () {
     // Converte a string JSON em um objeto JavaScript
     const savePadrao = JSON.parse(savePadraoJSON);
 
+
     const obj = {};
     obj[nome_save] = {
         nome_treinador,

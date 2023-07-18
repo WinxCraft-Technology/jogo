@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Em jogo</title>
+    <link rel="stylesheet" href="../style/global.css">
+    <link rel="stylesheet" href="../style/pg_ingame.css">
 </head>
+
 <body>
-    <h1 id="nome-time"></h1>
+    <div class="tab">
+        <a class="tablinks" href="#">Início</a>
+        <a class="tablinks" href="elencos.html">Elencos</a>
+    </div>
+
+    <div class="container">
+        <div class="left_div">
+            Conteúdo da left_div
+        </div>
+        <div class="right_div">
+            <h2 id="titulo_elenco">
+                <!-- Gerado no script pg_ingame.js -->
+            </h2>
+            <table id="tabelaElenco">
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Posição</th>
+                    <th>Nacionalidade</th>
+                    <th>Overall</th>
+                </tr>
+                <!-- Aqui serão inseridas as linhas da tabela com os dados do elenco -->
+            </table>
+        </div>
+    </div>
+
+
 
     <script src="../scripts/pg_ingame.js"></script>
 </body>
+
 </html>

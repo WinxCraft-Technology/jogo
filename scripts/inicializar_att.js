@@ -7,39 +7,44 @@ R_ = Recebe do localstorage
 
 {
   // Informações para atualizar o jogo
-  const timesNBA = [
-    "Atlanta Hawks",
-    "Boston Celtics",
-    "Brooklyn Nets",
-    "Charlotte Hornets",
-    "Chicago Bulls",
-    "Cleveland Cavaliers",
-    "Dallas Mavericks",
-    "Denver Nuggets",
-    "Detroit Pistons",
-    "Golden State Warriors",
-    "Houston Rockets",
-    "Indiana Pacers",
-    "Los Angeles Clippers",
-    "Los Angeles Lakers",
-    "Memphis Grizzlies",
-    "Miami Heat",
-    "Milwaukee Bucks",
-    "Minnesota Timberwolves",
-    "New Orleans Pelicans",
-    "New York Knicks",
-    "Oklahoma City Thunder",
-    "Orlando Magic",
-    "Philadelphia 76ers",
-    "Phoenix Suns",
-    "Portland Trail Blazers",
-    "Sacramento Kings",
-    "San Antonio Spurs",
-    "Toronto Raptors",
-    "Utah Jazz",
-    "Washington Wizards"
-  ];
-  const versao = "0.1"
+  const timesNBA = {
+    Oeste: [
+      "Dallas Mavericks",
+      "Denver Nuggets",
+      "Golden State Warriors",
+      "Houston Rockets",
+      "Los Angeles Clippers",
+      "Los Angeles Lakers",
+      "Memphis Grizzlies",
+      "Minnesota Timberwolves",
+      "New Orleans Pelicans",
+      "Oklahoma City Thunder",
+      "Phoenix Suns",
+      "Portland Trail Blazers",
+      "Sacramento Kings",
+      "San Antonio Spurs",
+      "Utah Jazz"
+    ],
+    Leste: [
+      "Atlanta Hawks",
+      "Boston Celtics",
+      "Brooklyn Nets",
+      "Charlotte Hornets",
+      "Chicago Bulls",
+      "Cleveland Cavaliers",
+      "Detroit Pistons",
+      "Indiana Pacers",
+      "Miami Heat",
+      "Milwaukee Bucks",
+      "New York Knicks",
+      "Orlando Magic",
+      "Philadelphia 76ers",
+      "Toronto Raptors",
+      "Washington Wizards"
+    ]
+  };
+
+  const versao = "0.1 "
   const elencoAtlantaHawks = atlantahawks();
   const elencoBostonCeltics = bostonceltics();
 
